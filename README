@@ -1,10 +1,11 @@
 gmp_test C-project
 ==================
 
-This is just a "gmp_test" example project.
+This is just a test example project.
 
 The only purpose of this project is to use as a test
-for GMP library.
+for *GMP library*, and as an example of how to import
+this library in a *CMakes* project.
 
 The project uses *CMakes* to build the executable.
 
@@ -36,7 +37,7 @@ To clean all compiled files and generated "Makefiles":
 About
 -----
 
-Source: https://github.com/mrsarm/helloworld
+Source: https://github.com/mrsarm/gmp_test
 
 Authors: (2015) Mariano Ruiz <mrsarm@gmail.cm>
 
