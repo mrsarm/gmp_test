@@ -22,7 +22,7 @@
 #include "date.h"
 #include <locale.h>
 
-#define		LIMIT		1 * 1000 * 1000
+#define		LIMIT		1l * 1000l * 1000l
 
 
 int main(int argc, char * argv[]) {
@@ -34,7 +34,7 @@ int main(int argc, char * argv[]) {
     mpz_t result;
     mpz_init(result);                                       // var result = 0
     mpz_set_str(result, "1", 10);                           // result = 1 ("1" expressed in base 10)
-    for (int i=0; i<LIMIT; i++) {
+    for (long i=0; i<LIMIT; i++) {
         mpz_add(result, result, result);                    // result = result + result
         //mpz_out_str(stdout, 10, result); printf("\n");    // Print value in base 10
     }
