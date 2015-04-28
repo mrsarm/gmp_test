@@ -1,0 +1,51 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+out/
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+
+# Eclipse Project files
+.project
+.cproject
+.settings
+Debug/
+
+# IDEA files
+.idea
+
+# Linux desktop files
+.directory
+
+# CMake files
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CMakeFiles
