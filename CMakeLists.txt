@@ -2,11 +2,12 @@ cmake_minimum_required(VERSION 2.8.4)
 project(gmp_test)
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c99")
+
 set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/CMake/Modules)
+find_package(GMP REQUIRED)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/out")
 
-find_package(GMP REQUIRED)
 
 INCLUDE_DIRECTORIES(
     "${GMP_INCLUDES}"
