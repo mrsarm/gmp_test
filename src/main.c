@@ -18,8 +18,8 @@
    <http://www.gnu.org/licenses/>.  */
 
 
-#include <gmp.h>
 #include <stdio.h>
+#include <gmp.h>
 #include "date.h"
 #include <locale.h>
 
