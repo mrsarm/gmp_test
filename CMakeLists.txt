@@ -1,7 +1,8 @@
-cmake_minimum_required(VERSION 2.8.4)
-project(gmp_test)
+cmake_minimum_required(VERSION 3.1)
+project(gmp_test C)
 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c99")
+set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}")   # Add more flags here
 
 set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/CMake/Modules)
 find_package(GMP REQUIRED)

@@ -38,8 +38,9 @@ out/
 .settings
 Debug/
 
-# IDEA files
+# IDEA / CLion files
 .idea
+cmake-build-debug/
 
 # Linux desktop files
 .directory
