@@ -20,6 +20,9 @@ add_executable(gmp_test ${SOURCE_FILES} src/date.h src/date.c)
 
 target_link_libraries(gmp_test ${GMP_LIBRARIES})
 
+install(TARGETS gmp_test
+        DESTINATION ${CMAKE_INSTALL_PREFIX}/bin/)
+
 
 add_custom_target(clean-all
   make clean && rm -fR ${CMAKE_BINARY_DIR}/CMakeCache.txt
